@@ -1,0 +1,18 @@
+.about {
+  margin-bottom: 44px;
+}
+
+.about__header {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 6px 0;
+    margin-top: 10px;
+}
+
+.about__description {
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: -0.1px;
+    color: gray;
+}
+  
