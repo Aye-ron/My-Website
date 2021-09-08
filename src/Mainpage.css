@@ -1,0 +1,16 @@
+
+.Mainpage h1 img {
+    display: absolute;
+    width: 120px;
+    height: 120px;
+    border-Radius: 60px;
+    
+}
+
+.Mainpage h1 img {
+	transition: all ease 500ms;
+}
+.Mainpage h1 img:hover {
+	transform: scale(1.25);
+	opacity: 0.7;
+}

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import "./Topbar.css";
+import Pdf from "./resume.pdf";
+
 
 class Topbar extends Component{
 
@@ -10,12 +12,12 @@ class Topbar extends Component{
             <div className="top-bar">
                 <div className="top-bar__links">
                 
-                <a className="top-bar__link" href="/PLACEHOLDER">
+                <a className="top-bar__link" href="/" onClick = {this.props.toggleHomePage}>
                     Home
                 </a>
                 <LinkSeparator />
 
-                <a className="top-bar__link" href="/static/cv-alexey-taktarov.pdf">
+                <a className="top-bar__link" href={Pdf}>
                     Resume
                 </a>
                 <LinkSeparator />
