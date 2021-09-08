@@ -10,7 +10,7 @@ class Topbar extends Component{
             <div className="top-bar">
                 <div className="top-bar__links">
                 
-                <a className="top-bar__link" href="">
+                <a className="top-bar__link" href="/PLACEHOLDER">
                     Home
                 </a>
                 <LinkSeparator />
