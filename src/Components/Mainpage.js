@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import "./Mainpage.css";
-import img0 from "./Omoi.jpg";
+import "../Styles/Mainpage.css";
+import img0 from "../Showcase/Omoi.jpg";
 import Aboutme from './Aboutme';
 import Topbar from './Topbar';
 import Footer from './Footer';
@@ -22,7 +22,7 @@ class Mainpage extends Component{
             this.setState({ currentDisplay : <Aboutme/>})
         }
         if (e.type === 'mouseleave' && this.state.imgClick !== true){
-            this.setState({ currentDisplay : false})
+            this.setState({ currentDisplay : <Homepage/>})
         }
     }
     handleImgClick(e){

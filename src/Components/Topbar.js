@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import "./Topbar.css";
-import Pdf from "./resume.pdf";
+import "../Styles/Topbar.css";
+import Pdf from "../Showcase/resume.pdf";
 
 
 class Topbar extends Component{
