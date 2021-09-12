@@ -27,7 +27,10 @@
 
 .footer{
   color: gray;
-  text-align: center;
-  padding-left: 200px;
-  padding-right: 200px;
+  position:absolute;
+  bottom: 0px;
+  left:0px;
+  right:0px;
+  margin-left:auto;
+  margin-right:auto;
 }
